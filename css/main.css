@@ -1,0 +1,42 @@
+html {
+	box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+}
+
+
+.btn-ghost {
+  font-size: 1.125rem;
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+  border-style: solid;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 0.4em 0.75em 0.03em;
+  display: inline-block;
+  font-family: "Lato";
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+}
+
+section {
+  padding-top: 2em
+}
+
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
